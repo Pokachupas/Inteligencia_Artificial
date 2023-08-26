@@ -14,3 +14,4 @@ git push --set-upstream origin x ----> Sube la rama prueba al repositorio
 git checkout x ----> Cambia a la rama x (Se deben jalar los cambios)
 code x ---> Abre el archivo x en Visual Studio Code
 git pull branchName/Project ----> Actualiza la rama actual a lo que tiene la rama elegida
+git stash ----> Guarda localmente los cambios hechos en una rama para cambiar a otra
