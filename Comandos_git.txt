@@ -1,0 +1,16 @@
+Comandos de git:_
+
+cd x ---> Moverse a la dirección (ruta) x
+ls ---> Muestra los archivos y carpetas de la dirección actual
+git status ----> Te muestra si has hecho un cambio con respecto a la rama superior
+cat x ---->  Muestra el contenido del  archivo x
+git add x y ... -----> Agrega los archivos x, y ... para realizar un commit
+git add . ---> Agrega todos los archivos cambiados para realizar un commit
+git commit ----> Sube los archivos para realizar un push
+git push ---->  Realiza un push de los cambios realizados en el commit
+git branch ----> Te muestra la rama en la que te encuentras
+git checkout -b x -----> Crea una rama prueba (local)
+git push --set-upstream origin x ----> Sube la rama prueba al repositorio
+git checkout x ----> Cambia a la rama x (Se deben jalar los cambios)
+code x ---> Abre el archivo x en Visual Studio Code
+git pull branchName/Project ----> Actualiza la rama actual a lo que tiene la rama elegida
