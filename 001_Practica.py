@@ -1,5 +1,7 @@
 #Aquí se esta creando un objeto, que es un tipo nuevo de variable que posee características específicas
 
+###Esta practica abarca del capítulo 2 al capítulo 6 del curso###
+
 class Usuario:
     name = "xxxx"  #Aquí se utiliza una variable para representar una característica o "atributo" del objeto
     password = "xxxx"
