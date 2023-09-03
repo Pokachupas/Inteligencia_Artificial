@@ -1,4 +1,4 @@
-#Aquí se esta creando un objeto, que es un tipo nuevo de variable que posee características específicas
+#Aquí se esta creando un objeto, que es un tipo de dato nuevo que posee características (atributos) y métodos específicos
 
 ###Esta practica abarca del capítulo 2 al capítulo 6 del curso###
 
@@ -7,10 +7,10 @@ class Usuario:
     password = "xxxx"
     edad = 0000
     
-    def __init__(self): 
+    def __init__(self):  #Este método es necesario para crea una instancia (u objeto) de la clase Usuario. Un método es un acción que puede relizar cualquier objeto de la clase.
         return
 
-    def setName(self):
+    def setName(self): #Self se utiliza para autoreferir al objeto que implementa el método
         self.name = input("Ingrese su nombre completo: ")
         self.name = self.name.title()
     
@@ -34,7 +34,7 @@ class Usuario:
 
 
 
-user1 = Usuario()
+user1 = Usuario() #Aquí user1 es una instancia de la clase Usuario, por lo que posee todos sus atributos y métodos.
 user1.setData()
 user1.showData()
 
