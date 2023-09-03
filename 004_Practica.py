@@ -7,9 +7,13 @@ print(type(colores))
 
 colores = list(colores)
 
+def Prendas(**kwargs):
+    for x in kwargs:
+        print(kwargs[x])
 x = 1
 while x != 0:
     colorPrenda = input("Ingrese un color de prenda: ").lower()
+    Prendas(prenda1 = "Camisa", prenda2 = "Pantalón", prenda3 = "Playera")
     if colorPrenda in colores:
         print("La prenda está diponible en: " + colorPrenda)
         answer = input("¿Desea comprarla? s/n: ")
