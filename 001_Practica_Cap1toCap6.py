@@ -21,11 +21,15 @@ class Usuario:
         self.edad = input("Ingrese su edad: ")
 
     def showData(self):
+        print("Para acceder a los datos de tu usuario inicie sesión: ")
+
         testPassword = input("Ingrese su contraseña: ")
         if testPassword == self.password:
-            print(self.name + "\n" + self.password + "\n" + self.edad)
+            print("Nombre: " + self.name + "\n" + "Password: " + self.password + "\n" + "Edad: " + self.edad)
+            return 0
         else:
             print("Contraseña incorrecta")
+            return 1
 
     def setData(self):
         self.setName()
@@ -33,9 +37,13 @@ class Usuario:
         self.setAge()
 
 
-
+print("Crea un nuevo usuario: ")
 user1 = Usuario() #Aquí user1 es una instancia de la clase Usuario, por lo que posee todos sus atributos y métodos.
-user1.setData()
-user1.showData()
 
+user1.setData()
+x = 1
+while(x == 1):
+    x = user1.showData()
+
+print("Adios")
 
